@@ -1,28 +1,19 @@
+/* NOTE */
+/* This file is deprecated and will not be supported in future versions. */
+/* So try to not use it now, as it's going to be a bit hard to migrate to the new format (styles/div.css, styles/img.css) */
+/* NOTE */
+
+
 /* Div */
-div.smaller {
-    font-size: 10px;
-}
-div.small {
-    font-size: 15px;
-}
-div.medium {
-    font-size: 20px;
-}
-div.large {
-    font-size: 25px;
-}
-div.larger {
-    font-size: 30px;
-}
-div.verdana {
-    font-family: Verdana;
-}
-div.courier-new {
-    font-family: 'Courier New';
-}
 div {
     font-size: 15px;
+    margin: 5px;
     padding: 5px;
+    border-style: solid;
+    border-radius: 15px;
+    background-color: #ffffff;
+}
+div.fit {
     width: fit-content;
 }
 div.center {
@@ -30,18 +21,67 @@ div.center {
     margin: 5px auto 5px auto;
     display: block;
 }
+div.bordered-thin {
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 1px;
+}
 div.bordered {
     border-style: solid;
-    border-radius: 10px;
+    border-radius: 15px;
     border-width: 2px;
 }
+div.bordered-thick {
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 5px;
+}
+div.smaller {
+    font-size: 10px;
+    border-width: 2px;
+    border-radius: 5px;
+}
+div.small {
+    font-size: 15px;
+    border-width: 2px;
+    border-radius: 10px;
+}
+div.medium {
+    font-size: 20px;
+    border-radius: 15px;
+}
+div.large {
+    font-size: 25px;
+    border-radius: 15px;
+}
+div.larger {
+    font-size: 30px;
+    border-radius: 15px;
+}
+div.verdana {
+    font-family: Verdana;
+}
+div.courier-new {
+    font-family: 'Courier New';
+}
+div.contained {
+    margin: 0px;
+}
+div.contained-center {
+    margin: 0px auto 0px auto;
+}
+
 /* Img */
 img {
     max-width: 300px;
     max-height: 300px;
+    object-fit: cover;
+    border-style: none;
+    border-radius: 10px;
+    margin: 5px;
 }
 img.round {
-    border-radius: 300px;
+    border-radius: 150px;
 }
 img.center {
     margin: 5px auto 5px auto;
@@ -49,7 +89,6 @@ img.center {
 }
 img.bordered {
     border-style: solid;
-    border-radius: 10px;
     border-width: 2px;
 }
 img.smaller {
@@ -96,4 +135,97 @@ img.round-larger {
     max-width: 500px;
     max-height: 500px;
     border-radius: 250px;
+}
+img.square-smaller {
+    width: 100px;
+    height: 100px;
+}
+img.square-small {
+    width: 150px;
+    height: 150px;
+}
+img.square-medium {
+    width: 250px;
+    height: 250px;
+}
+img.square-large {
+    width: 350px;
+    height: 350px;
+}
+img.square-larger {
+    width: 500px;
+    height: 500px;
+}
+img.contained {
+    margin: 0px;
+}
+img.contained-center {
+    margin: 0px auto 0px auto;
+}
+
+/* P */
+p {
+    font-size: 15px;
+    margin: 5px;
+    padding: 5px;
+    border-style: solid;
+    border-radius: 15px;
+    background-color: #ffffff;
+}
+p.fit {
+    width: fit-content;
+}
+p.center {
+    text-align: center;
+    margin: 5px auto 5px auto;
+    display: block;
+}
+p.bordered-thin {
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 1px;
+}
+p.bordered {
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 2px;
+}
+p.bordered-thick {
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 5px;
+}
+p.smaller {
+    font-size: 10px;
+    border-width: 2px;
+    border-radius: 5px;
+}
+p.small {
+    font-size: 15px;
+    border-width: 2px;
+    border-radius: 10px;
+}
+p.medium {
+    font-size: 20px;
+    border-radius: 15px;
+}
+p.large {
+    font-size: 25px;
+    border-radius: 15px;
+}
+p.larger {
+    font-size: 30px;
+    border-radius: 15px;
+}
+p.verdana {
+    font-family: Verdana;
+}
+p.courier-new {
+    font-family: 'Courier New';
+}
+p.contained {
+    margin: 0px;
+}
+p.contained-center {
+    margin: 0px auto 0px auto;
 }
