@@ -1,0 +1,103 @@
+/* Img */
+img {
+    max-width: 300px;
+    max-height: 300px;
+    object-fit: cover;
+    border-style: none;
+    border-radius: 10px;
+    margin: 5px;
+    display: inline-block;
+    vertical-align: top;
+}
+img.align-center {
+    vertical-align: middle;
+}
+img.align-bottom {
+    vertical-align: bottom;
+}
+img.round {
+    border-radius: 150px;
+}
+img.square {
+    width: 300px;
+    height: 300px;
+}
+img.center {
+    margin: 5px auto 5px auto;
+    display: block;
+}
+img.bordered {
+    border-style: solid;
+    border-width: 2px;
+}
+img.smaller {
+    max-width: 100px;
+    max-height: 100px;
+}
+img.small {
+    max-width: 150px;
+    max-height: 150px;
+}
+img.medium {
+    max-width: 250px;
+    max-height: 250px;
+}
+img.large {
+    max-width: 350px;
+    max-height: 350px;
+}
+img.larger {
+    max-width: 500px;
+    max-height: 500px;
+}
+img.round-smaller {
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 50px;
+}
+img.round-small {
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 75px;
+}
+img.round-medium {
+    max-width: 250px;
+    max-height: 250px;
+    border-radius: 125px;
+}
+img.round-large {
+    max-width: 350px;
+    max-height: 350px;
+    border-radius: 175px;
+}
+img.round-larger {
+    max-width: 500px;
+    max-height: 500px;
+    border-radius: 250px;
+}
+img.square-smaller {
+    width: 100px;
+    height: 100px;
+}
+img.square-small {
+    width: 150px;
+    height: 150px;
+}
+img.square-medium {
+    width: 250px;
+    height: 250px;
+}
+img.square-large {
+    width: 350px;
+    height: 350px;
+}
+img.square-larger {
+    width: 500px;
+    height: 500px;
+}
+img.contained {
+    margin: 0px;
+}
+img.contained-center {
+    margin: 0px auto 0px auto;
+}
